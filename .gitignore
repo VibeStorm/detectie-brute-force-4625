@@ -1,0 +1,20 @@
+# --- mediu Python ---
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- PRIVAT: partea B (nu se publică pe GitHub) ---
+CLAUDE.md
+EXPLICATII.md
+PROMPTURI.md
+.claude/
+PRIVAT/
+
+# --- fișiere sensibile, ca plasă de siguranță ---
+.env
+*.key
+*.pem
+secrets*
+config.json

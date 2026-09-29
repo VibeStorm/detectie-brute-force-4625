@@ -1,0 +1,387 @@
+{
+  "parametri": {
+    "n_seeds": 5,
+    "contamination": 0.005,
+    "min_failed": 10
+  },
+  "regula": {
+    "precizie": {
+      "medie": 0.7184400527009221,
+      "abatere_std": 0.02689653099747886
+    },
+    "recall": {
+      "medie": 0.78437343358396,
+      "abatere_std": 0.13425293190303902
+    },
+    "f1": {
+      "medie": 0.7456798520628307,
+      "abatere_std": 0.07357837264590207
+    },
+    "alerte_medii": 22.2,
+    "fp_mediu": 6.2
+  },
+  "isolation_forest": {
+    "precizie": {
+      "medie": 0.23099607836061037,
+      "abatere_std": 0.03133787004804853
+    },
+    "recall": {
+      "medie": 0.971140350877193,
+      "abatere_std": 0.023840291425007834
+    },
+    "f1": {
+      "medie": 0.3722113410884752,
+      "abatere_std": 0.04255922394872614
+    },
+    "alerte_medii": 88.0,
+    "fp_mediu": 68.0
+  },
+  "isolation_forest_acelasi_buget": {
+    "precizie": {
+      "medie": 0.6301822573561704,
+      "abatere_std": 0.10804710855344277
+    },
+    "recall": {
+      "medie": 0.4321428571428571,
+      "abatere_std": 0.14311215861310445
+    },
+    "f1": {
+      "medie": 0.4999235267320373,
+      "abatere_std": 0.1181296002431435
+    },
+    "alerte_medii": 14.4,
+    "fp_mediu": 5.4
+  },
+  "rulari": [
+    {
+      "seed": 42,
+      "n_evenimente": 27039,
+      "n_ferestre": 21821,
+      "n_ferestre_atac": 19,
+      "regula": {
+        "precizie": 0.7391304347826086,
+        "recall": 0.8947368421052632,
+        "f1": 0.8095238095238095,
+        "tp": 17,
+        "fp": 6,
+        "fn": 2,
+        "tn": 21796,
+        "alerte_totale": 23,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 8,
+            "prinse": 8
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 9
+          }
+        }
+      },
+      "isolation_forest": {
+        "precizie": 0.24358974358974358,
+        "recall": 1.0,
+        "f1": 0.3917525773195876,
+        "tp": 19,
+        "fp": 59,
+        "fn": 0,
+        "tn": 21743,
+        "alerte_totale": 78,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 8,
+            "prinse": 8
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 11
+          }
+        }
+      },
+      "isolation_forest_acelasi_buget": {
+        "precizie": 0.8181818181818182,
+        "recall": 0.47368421052631576,
+        "f1": 0.6,
+        "tp": 9,
+        "fp": 2,
+        "fn": 10,
+        "tn": 21800,
+        "alerte_totale": 11,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 8,
+            "prinse": 0
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 9
+          }
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "n_evenimente": 26810,
+      "n_ferestre": 21718,
+      "n_ferestre_atac": 19,
+      "regula": {
+        "precizie": 0.72,
+        "recall": 0.9473684210526315,
+        "f1": 0.8181818181818182,
+        "tp": 18,
+        "fp": 7,
+        "fn": 1,
+        "tn": 21692,
+        "alerte_totale": 25,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 8,
+            "prinse": 8
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 10
+          }
+        }
+      },
+      "isolation_forest": {
+        "precizie": 0.17142857142857143,
+        "recall": 0.9473684210526315,
+        "f1": 0.2903225806451613,
+        "tp": 18,
+        "fp": 87,
+        "fn": 1,
+        "tn": 21612,
+        "alerte_totale": 105,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 8,
+            "prinse": 8
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 10
+          }
+        }
+      },
+      "isolation_forest_acelasi_buget": {
+        "precizie": 0.5555555555555556,
+        "recall": 0.5263157894736842,
+        "f1": 0.5405405405405406,
+        "tp": 10,
+        "fp": 8,
+        "fn": 9,
+        "tn": 21691,
+        "alerte_totale": 18,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 8,
+            "prinse": 0
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 10
+          }
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "n_evenimente": 26748,
+      "n_ferestre": 21679,
+      "n_ferestre_atac": 20,
+      "regula": {
+        "precizie": 0.7272727272727273,
+        "recall": 0.8,
+        "f1": 0.7619047619047619,
+        "tp": 16,
+        "fp": 6,
+        "fn": 4,
+        "tn": 21653,
+        "alerte_totale": 22,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 9,
+            "prinse": 8
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 8
+          }
+        }
+      },
+      "isolation_forest": {
+        "precizie": 0.2638888888888889,
+        "recall": 0.95,
+        "f1": 0.41304347826086957,
+        "tp": 19,
+        "fp": 53,
+        "fn": 1,
+        "tn": 21606,
+        "alerte_totale": 72,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 9,
+            "prinse": 8
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 11
+          }
+        }
+      },
+      "isolation_forest_acelasi_buget": {
+        "precizie": 0.625,
+        "recall": 0.25,
+        "f1": 0.35714285714285715,
+        "tp": 5,
+        "fp": 3,
+        "fn": 15,
+        "tn": 21656,
+        "alerte_totale": 8,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 9,
+            "prinse": 0
+          },
+          "password_spray": {
+            "ferestre_atac": 11,
+            "prinse": 5
+          }
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "n_evenimente": 26831,
+      "n_ferestre": 21642,
+      "n_ferestre_atac": 24,
+      "regula": {
+        "precizie": 0.7391304347826086,
+        "recall": 0.7083333333333334,
+        "f1": 0.723404255319149,
+        "tp": 17,
+        "fp": 6,
+        "fn": 7,
+        "tn": 21612,
+        "alerte_totale": 23,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 9,
+            "prinse": 9
+          },
+          "password_spray": {
+            "ferestre_atac": 15,
+            "prinse": 8
+          }
+        }
+      },
+      "isolation_forest": {
+        "precizie": 0.23469387755102042,
+        "recall": 0.9583333333333334,
+        "f1": 0.3770491803278688,
+        "tp": 23,
+        "fp": 75,
+        "fn": 1,
+        "tn": 21543,
+        "alerte_totale": 98,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 9,
+            "prinse": 9
+          },
+          "password_spray": {
+            "ferestre_atac": 15,
+            "prinse": 14
+          }
+        }
+      },
+      "isolation_forest_acelasi_buget": {
+        "precizie": 0.6521739130434783,
+        "recall": 0.625,
+        "f1": 0.6382978723404256,
+        "tp": 15,
+        "fp": 8,
+        "fn": 9,
+        "tn": 21610,
+        "alerte_totale": 23,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 9,
+            "prinse": 4
+          },
+          "password_spray": {
+            "ferestre_atac": 15,
+            "prinse": 11
+          }
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "n_evenimente": 26775,
+      "n_ferestre": 21560,
+      "n_ferestre_atac": 21,
+      "regula": {
+        "precizie": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846154,
+        "tp": 12,
+        "fp": 6,
+        "fn": 9,
+        "tn": 21533,
+        "alerte_totale": 18,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 6,
+            "prinse": 6
+          },
+          "password_spray": {
+            "ferestre_atac": 15,
+            "prinse": 6
+          }
+        }
+      },
+      "isolation_forest": {
+        "precizie": 0.2413793103448276,
+        "recall": 1.0,
+        "f1": 0.3888888888888889,
+        "tp": 21,
+        "fp": 66,
+        "fn": 0,
+        "tn": 21473,
+        "alerte_totale": 87,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 6,
+            "prinse": 6
+          },
+          "password_spray": {
+            "ferestre_atac": 15,
+            "prinse": 15
+          }
+        }
+      },
+      "isolation_forest_acelasi_buget": {
+        "precizie": 0.5,
+        "recall": 0.2857142857142857,
+        "f1": 0.36363636363636365,
+        "tp": 6,
+        "fp": 6,
+        "fn": 15,
+        "tn": 21533,
+        "alerte_totale": 12,
+        "pe_tip_de_atac": {
+          "brute_force": {
+            "ferestre_atac": 6,
+            "prinse": 0
+          },
+          "password_spray": {
+            "ferestre_atac": 15,
+            "prinse": 6
+          }
+        }
+      }
+    }
+  ]
+}
