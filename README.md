@@ -80,16 +80,15 @@ results/                  metrici (metrics.json) și grafic
 
 ## Limite
 
-* Date sintetice, construite de autor: un mediu real are alt zgomot și alte tipuri de atac.
+* Date sintetice, construite de mine împreună cu Claude: un mediu real are alt zgomot și alte tipuri de atac.
 * Un singur tip de model (Isolation Forest), cu parametri implicit-rezonabili, fără optimizare.
 * Evaluare pe ferestre, nu pe incidente; nu se măsoară timpul până la detecție.
 * Nu este pregătit pentru producție și nu înlocuiește un SIEM.
 
 ## Realizat cu ajutorul AI
 
-Acest proiect a fost construit cu **Claude** (asistent AI de la Anthropic) ca partener de cod. Codul, testele și acest text au
-fost scrise de Claude la cererea autorului, care a ales tema, a aprobat direcția și publică proiectul. Testele
-automate au fost rulate în timpul construirii. Autorul nu pretinde că a scris codul singur.
+Am realizat acest proiect împreună cu **Claude** (asistent AI de la Anthropic). Eu am ales tema, am stabilit direcția
+și am verificat rezultatele. Claude a scris codul, testele și acest README. Nu pretind că am scris codul singur.
 
 ## Licență
 
